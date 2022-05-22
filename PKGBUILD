@@ -1,7 +1,7 @@
-# Maintainer : N/A
+#Author : Mitchel Stewart <quackdoctech@gmaiil.com>
 
-pkgname=liblc3plus
-pkgver=1
+pkgname=liblc3plus-float
+pkgver=1.3.6
 pkgrel=1
 pkgdesc='Shared LC3 '
 arch=('x86_64')

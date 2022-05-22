@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.9)
 
-project(lc3plus_fixedpoint
+project(lc3plus_floatpoint
 	    VERSION 1.3.6
 	    DESCRIPTION "LC3plus fixedpoint library"
 	    HOMEPAGE_URL "https://www.iis.fraunhofer.de/en/ff/amm/communication/lc3.html"
