@@ -24,7 +24,7 @@ sha256sums=('SKIP'
             'SKIP')
 
 build() {
-    cd $srcdir/ETSI_Release/LC3plus_ETSI_src_v172062927c2_20210930/src/fixed_point/
+    cd $srcdir/ETSI_Release/LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/
     cp $srcdir/CMakeLists.txt ./
     cp $srcdir/LC3plus.pc.in ./
     mkdir -p build && cd build
@@ -33,6 +33,6 @@ build() {
 }
 
 package() {
-  cd $srcdir/ETSI_Release/LC3plus_ETSI_src_v172062927c2_20210930/src/fixed_point/build
+  cd $srcdir/ETSI_Release/LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/build
   make DESTDIR="$pkgdir/" install
 }
