@@ -3,7 +3,7 @@
 pkgname=liblc3plus-float
 pkgver=1.3.6
 pkgrel=1
-pkgdesc='Shared LC3 '
+pkgdesc='Shared LC3 float library'
 arch=('x86_64')
 url=' '
 license=('BSD')
@@ -14,7 +14,7 @@ makedepends=(
   clang
   git
 )
-provides=('liblc3plus.so')
+provides=('libLC3plus.so')
 source=('https://www.etsi.org/deliver/etsi_ts/103600_103699/103634/01.03.01_60/ts_103634v010301p0.zip'
         'CMakeLists.txt'
         'LC3plus.pc.in')

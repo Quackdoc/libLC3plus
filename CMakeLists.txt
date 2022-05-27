@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.9)
 
 project(lc3plus_floatpoint
 	    VERSION 1.3.6
-	    DESCRIPTION "LC3plus fixedpoint library"
+	    DESCRIPTION "LC3plus floatpoint library"
 	    HOMEPAGE_URL "https://www.iis.fraunhofer.de/en/ff/amm/communication/lc3.html"
 	    LANGUAGES C)
 
@@ -98,6 +98,6 @@ install(TARGETS LC3plus
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 
-configure_file(LC3plus.pc.in LC3plus.pc @ONLY)
+configure_file(LC3plus.pc.in lc3plus.pc @ONLY)
 
-install(FILES ${CMAKE_BINARY_DIR}/LC3plus.pc DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/pkgconfig)
+install(FILES ${CMAKE_BINARY_DIR}/lc3plus.pc DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/pkgconfig)
