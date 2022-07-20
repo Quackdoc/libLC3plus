@@ -5,8 +5,8 @@ pkgver=1.3.6
 pkgrel=1
 pkgdesc='Shared LC3 float library'
 arch=('x86_64')
-url=' '
-license=('BSD')
+url='https://www.iis.fraunhofer.de/en/ff/amm/communication/lc3.html'
+license=('custom')
 depends=(
 cmake
 )
